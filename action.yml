@@ -1,6 +1,6 @@
-name: Electron Builder Action
+name: Electron Forge Action
 author: Samuel Meuli
-description: GitHub Action for building and releasing Electron apps
+description: GitHub Action for building and releasing Electron apps using electron-forge
 
 inputs:
   github_token:
@@ -45,7 +45,7 @@ inputs:
     required: false
 
 runs:
-  using: node12
+  using: node14
   main: index.js
 
 branding:
